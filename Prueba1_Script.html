@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <script >
+    function funcion1() {
+        document.getElementById("t1").innerHTML = "Hola ^^";
+    }
+    function funcion2() {
+        document.write("Bon Dia.");
+    }
+    function funcion3() {
+        window.alert("F En el Chat.");
+    }
+    function funcion4() {
+        console.log("Hola Consola");
+    }
+    </script>
+</head>
+<body>
+    <header>Test 1 / GetElementById</header>
+    <button onclick="funcion1()"> Prueba1 </button>
+    <p id="t1"></p>
+    
+    <header>Test 2/ Document Write</header>
+    <button onclick="funcion2()"> Prueba2 </button>
+    <p id="t2"></p>
+    
+    <header>Test 3 / Document Alert</header>
+    <button onclick="funcion3()"> Prueba3 </button>
+    <p id="t3"></p>
+    
+    <header>Test 4 / Console Log</header>
+    <button onclick="funcion4()"> Prueba4 </button>
+    <p id="t4"></p>
+</body>
+</html>
